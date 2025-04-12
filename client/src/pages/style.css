@@ -1,0 +1,105 @@
+.form-container {
+  width: 350px;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #af9393;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-family:serif;
+  font-size: 29px;
+  color: #000000;
+  margin-bottom: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.success-message {
+  color: rgb(8, 125, 8);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input, select, button {
+  width: 93%;
+  margin: 12px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  width: 93%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  background: #5a666e;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family:serif;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.suc-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #f0fdf4;
+  border: 2px solid #34d399;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.suc-container h2 {
+  color: #10b981;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.suc-container p {
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
